@@ -8,7 +8,7 @@ import duke.data.Patient;
 import duke.exception.DukeException;
 
 public class PatientReportSpec extends ArgSpec {
-    private static final String header = "DISCHARGED PATIENT REPORT";
+    private static final String header = "PATIENT REPORT";
     private static final String explanation = "This report shows all the data that was stored about a patient at the "
             + "time the report was created.";
 

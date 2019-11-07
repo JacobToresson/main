@@ -2,6 +2,8 @@ package duke.data;
 
 public class Result extends Evidence {
 
+    private Impression impression;
+
     /**
      * Represents results of an investigation based on the treatment prescribed for a patient.
      * A Result object corresponds to the result of an investigation into the symptoms of a Patient,
@@ -19,13 +21,16 @@ public class Result extends Evidence {
 
     @Override
     public String toString() {
-        // todo
-        return super.toString();
+        String informationString;
+        informationString = "Name: " + this.getName() + "\n";
+        informationString += "Impression: " + this.impression + "\n";
+        informationString += "Impression: " + this.summary + "\n";
+        informationString += "Impression: " + this.getPriority() + "\n";
+        return super.toString() + informationString;
     }
 
     @Override
     public String toReportString() {
-        // todo
         return null;
     }
 

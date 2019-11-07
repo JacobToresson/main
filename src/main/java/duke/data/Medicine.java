@@ -45,8 +45,7 @@ public class Medicine extends Treatment {
 
     @Override
     public String toReportString() {
-        // todo
-        return null;
+        return toString();
     }
 
     public String getDose() {

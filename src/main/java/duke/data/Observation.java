@@ -30,8 +30,7 @@ public class Observation extends Evidence {
 
     @Override
     public String toReportString() {
-        // todo
-        return null;
+        return toString();
     }
 
     public boolean isObjective() {

@@ -45,10 +45,11 @@ public class Investigation extends Treatment {
         return super.toString() + informationString;
     }
 
-    //TODO complete
     @Override
     public String toReportString() {
-        return null;
+        String informationString;
+        informationString = "Summary: " + this.summary + "\n";
+        return super.toString() + informationString;
     }
 
     public String getStatusStr() {
